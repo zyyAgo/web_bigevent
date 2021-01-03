@@ -44,7 +44,7 @@ function renderAvatar(user){
     //渲染头像
    if(user.user_pic!==null){
        //当接收到用户有头像时 就用用户的头像
-       $('.layui-nav-img').attr('src',user_pic.pic).show();
+       $('.layui-nav-img').attr('src',user.user_pic).show();
        //文本头像隐藏
        $('.taxt-avatar').hide()
    }else{
