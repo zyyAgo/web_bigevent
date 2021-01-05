@@ -1,6 +1,7 @@
 $(function () {
     var layer = layui.layer;
     let form = layui.form;
+
     let laypage = layui.laypage;
     // var laypage  分页
     var q = {
