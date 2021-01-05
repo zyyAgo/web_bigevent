@@ -48,6 +48,7 @@ $(function(){
                    return layer.msg(res.message)
                 }
                 layer.msg(res.message)
+                initUserInfo()
             }
         });
     })

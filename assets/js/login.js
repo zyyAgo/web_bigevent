@@ -52,6 +52,7 @@ $(function () {
     })
 
   })
+  
   //登录功能 完成后跳转登录
   $('#form_login').on('submit', function (e) {
     //阻止表单的默认提交事件
